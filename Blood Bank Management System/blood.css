@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  background-color: #dc3545;
+}
+
+/* Header */
+header {
+  background: #dc3545;
+  color: white;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 1.1rem;
+}
+
+.nav-link:hover {
+  color: #f8d7da !important;
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  text-align: center;
+  padding: 5rem 0;
+  background: #f8f9fa;
+}
+
+.hero-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Search Donors */
+.search-donors {
+  background: white;
+}
+
+.donor-card {
+  transition: transform 0.3s;
+}
+
+.donor-card:hover {
+  transform: scale(1.05);
+}
+
+.donor-card img {
+  height: 150px;
+  object-fit: cover;
+}
+
+/* Register */
+.register h2 {
+  font-size: 2.5rem;
+}
+
+.error {
+  color: #dc3545;
+  font-size: 0.9rem;
+  display: none;
+  margin-top: 0.25rem;
+}
+
+/* Contact */
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+
+  .hero-image {
+    max-height: 300px;
+  }
+
+  #map {
+    height: 300px;
+    margin-top: 2rem;
+  }
+}
